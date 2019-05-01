@@ -19,7 +19,7 @@ int main()
 		double **A = allocationMatrix(N);
 		double determinant;
 		randomEnterMatrixElenemts(A,N);
-		//enterMatrixElements(A,N);
+		////enterMatrixElements(A,N);
 		printf("Matrix :\n");
 		displaySquareMatrix(A,N);
 		determinant = HouseholderMethod(A,N);
